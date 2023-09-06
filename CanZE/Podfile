@@ -7,7 +7,7 @@ target 'CanZE' do
 
   # Pods for CanZE
 
-  pod 'Charts'
+  pod 'Charts', :git => 'https://github.com/danielgindi/Charts.git', :branch => 'master'
   pod 'Toast-Swift', '~> 5.0.1'
   
   pod 'Firebase/Crashlytics'
